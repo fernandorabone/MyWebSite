@@ -23,8 +23,7 @@ div{
 nav{
     background-color: whitesmoke;
     background-blend-mode:darken;
-    border: .25rem solid black;   
-        
+    border: .25rem solid black;    
 }
 footer{
     background-color: black;
@@ -147,8 +146,16 @@ p{
     width: 1024px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0;
+    margin-bottom: .1rem;
     margin-top: auto;
+    position: relative;
+}
+.asideMyJobs{
+    border: .10rem solid black;
+    width: 360px;
+    padding: border-box;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
 }
 .lastAsideHome {
     background-color: whitesmoke;
@@ -164,6 +171,7 @@ p{
     width: 165px;
     height: 175px;
     border: .10rem solid black;
+    margin-bottom: 1rem;
 }
 .pHome {
     font-family: 'Livvic', sans-serif;
@@ -179,6 +187,17 @@ p{
     text-align: justify;
     margin-left: 4rem;
     text-transform: uppercase;
+}
+.ulMyJobs {
+    display: inline;
+}
+.inicio-post {
+    background-color: darkgray;
+    position: absolute;
+    top: .5em;
+    right: 12em;
+    padding: .5em;
+        
 }
             /*<!-- MEDIDAS -->*/ 
     /* -EM -> COM BASE NA MEDIDA DO ELEMENTO*/
